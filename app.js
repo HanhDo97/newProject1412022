@@ -9,7 +9,11 @@ var con = mysql.createConnection({
 
 con.connect((function(error){
     if(error) throw error; 
-    {
-     console.log('Connected');   
-    }
+    console.log('Connected');  
+    let sql = 'CREATE TABLE customers (name VARCHAR(255),address VARCHAR(255))';
+    con.query(sql, function(err, result){
+        if(err) throw err;
+        console.log("Table created")
+    }) 
+    
 }))
