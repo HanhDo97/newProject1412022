@@ -1,0 +1,14 @@
+{
+  "name": "dbtraining",
+  "version": "1.0.0",
+  "description": "new Database training",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mr.NoOne",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
+}
